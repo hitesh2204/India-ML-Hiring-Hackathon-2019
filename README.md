@@ -15,16 +15,16 @@ train.zip contains train.csv. train.csv contains the training data with details 
 
 Data Dictionary
 
-               Variable	                                                                     Description
-               loan_id	                                                                    Unique loan ID
+               Variable	                                                                   Description
+               loan_id	                                                                   Unique loan ID
                source	Loan                                                                 origination channel
                financial_institution                                                       Name of the bank
-               interest_rate	                                                              Loan interest rate
+               interest_rate	                                                             Loan interest rate
                unpaid_principal_bal	                                                       Loan unpaid principal balance
-               loan_term	                                                                  Loan term (in days)
+               loan_term	                                                                 Loan term (in days)
                origination_date	                                                           Loan origination date (YYYY-MM-DD)
                first_payment_date                                                          First instalment payment date
-               loan_to_value	                                                              Loan to value ratio
+               loan_to_value	                                                             Loan to value ratio
                number_of_borrowers                                                         Number of borrowers
                debt_to_income_ratio                                                        Debt-to-income ratio
                borrower_credit_score                                                       Borrower credit score
@@ -33,8 +33,10 @@ Data Dictionary
                co-borrower_credit_score	                                                   Co-borrower credit score
                insurance_type                                                              0 - Premium paid by borrower, 1 -\ 
                                                                                            Premium paid by Lender
-              m1 to m12	                                                          Month-wise loan performance (deliquency in months)
-              m13	target,                                                      loan deliquency status (0 = non deliquent, 1 = deliquent)
+              m1 to m12	                                                                   Month-wise loan performance 
+                                                                                           (deliquency in months)
+              m13	target,                                                                  loan deliquency status 
+                                                                                           (0 = non deliquent, 1 = deliquent)
 
 test.zip
 
@@ -50,16 +52,16 @@ Submissions are evaluated on F1-Score between the predicted class and the observ
  
 Public and Private Split
 
-Test data is further randomly divided into Public (40%) and Private (60%) data.
-Your initial responses will be checked and scored on the Public data.
-The final rankings would be based on your private score which will be published once the competition is over.
+1)Test data is further randomly divided into Public (40%) and Private (60%) data.
+2)Your initial responses will be checked and scored on the Public data.
+3)The final rankings would be based on your private score which will be published once the competition is over.
 
 Hackathon Rules
 
-Setting the final submission is mandatory. Without a final submission, the submission corresponding to best public score will be taken as final submission
-Use of external datasets is not allowed
-Use of loan_id variable as an input to the model is not allowed
-You can only make 15 submissions per day
-Code file is mandatory while setting final submission. For GUI based tools, please upload a zip file of snapshots of steps taken by you, else upload code file.
-The code file uploaded should be pertaining to your final submission.
-No submission will be accepted after the contest deadline
+1) Setting the final submission is mandatory. Without a final submission, the submission corresponding to best public score will be      taken as final submission
+2) Use of external datasets is not allowed
+3) Use of loan_id variable as an input to the model is not allowed
+4) You can only make 15 submissions per day
+   Code file is mandatory while setting final submission. For GUI based tools, please upload a zip file of snapshots of steps taken by  you, else upload code file.
+5) The code file uploaded should be pertaining to your final submission.
+6) No submission will be accepted after the contest deadline
