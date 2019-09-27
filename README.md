@@ -53,7 +53,9 @@ Submissions are evaluated on F1-Score between the predicted class and the observ
 Public and Private Split
 
 1)Test data is further randomly divided into Public (40%) and Private (60%) data.
+
 2)Your initial responses will be checked and scored on the Public data.
+
 3)The final rankings would be based on your private score which will be published once the competition is over.
 
 Hackathon Rules
